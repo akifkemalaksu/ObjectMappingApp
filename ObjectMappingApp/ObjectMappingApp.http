@@ -1,0 +1,6 @@
+@ObjectMappingApp_HostAddress = http://localhost:5010
+
+GET {{ObjectMappingApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

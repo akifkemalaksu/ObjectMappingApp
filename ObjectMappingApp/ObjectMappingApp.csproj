@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<DefineConstants>CHECK_CACHE_MISSES</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AgileObjects.AgileMapper" Version="1.8.1" />
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
+		<PackageReference Include="BenchmarkDotNet" Version="0.13.12" />
+		<PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.12" />
+		<PackageReference Include="Mapster" Version="7.4.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="TinyMapper" Version="3.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Benchmark\Configs\" />
+	  <Folder Include="Controllers\" />
+	</ItemGroup>
+
+</Project>

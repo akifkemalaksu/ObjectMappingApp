@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMappingApp", "ObjectMappingApp\ObjectMappingApp.csproj", "{F12CFE4A-D26B-4415-9F8F-57FF9FCBB7DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12CFE4A-D26B-4415-9F8F-57FF9FCBB7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12CFE4A-D26B-4415-9F8F-57FF9FCBB7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12CFE4A-D26B-4415-9F8F-57FF9FCBB7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12CFE4A-D26B-4415-9F8F-57FF9FCBB7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {349639AA-B480-4A0D-9AF6-612B3FD87387}
+	EndGlobalSection
+EndGlobal
